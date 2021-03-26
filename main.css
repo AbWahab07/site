@@ -159,9 +159,13 @@ h2 span {
 
 .col-sm-6 {
   padding: 20px;
-  text-align: left;
+  text-align: left !important;
 }
 
 li {
   text-align: left;
+}
+
+ul {
+  list-style: disc;
 }
