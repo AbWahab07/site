@@ -12,6 +12,11 @@
 ::before {
   box-sizing: border-box;
 }
+
+p {
+  line-height: 1.9rem;
+}
+
 .container-fluid {
   width: 100%;
   padding-right: 15px;
@@ -150,4 +155,12 @@ strong {
 
 h2 span {
   font-family: "Trebuchet MS" !important;
+}
+
+.col-sm-6 {
+  padding: 20px;
+}
+
+li {
+  text-align: left;
 }
