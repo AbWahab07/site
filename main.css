@@ -18,7 +18,7 @@ p {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 95%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -121,10 +121,17 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
-section h2 {
+h2 {
   font-weight: 600;
   color: #072b52;
-  font-size: 40px;
+  line-height: 3rem;
+}
+
+h2 span {
+  text-decoration: underline;
+  text-decoration-color: #efbb18;
+  display: block;
+  margin-top: -7px;
 }
 
 .pl-100 {
@@ -132,7 +139,9 @@ section h2 {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
 }
 
 h1,
@@ -165,9 +174,54 @@ h2 span {
 li {
   text-align: left;
   line-height: 1.6rem;
-  list-style: disc;
 }
 
 ul {
   padding-left: revert;
+}
+
+.service-google li {
+  list-style: disc;
+}
+
+ul.seo-audit {
+  padding-left: initial;
+}
+
+.seo-audit li {
+  margin-bottom: 1rem;
+}
+
+.seo-audit li span {
+  display: inline-block;
+}
+
+.seo-audit li p {
+  display: contents;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.will-do {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.cta {
+  max-width: 100%;
+  text-align: center;
 }
