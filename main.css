@@ -111,3 +111,7 @@ section h2 {
 .pl-100 {
   padding-left: 100px;
 }
+
+img {
+  width: 100%;
+}
