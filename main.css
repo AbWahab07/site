@@ -115,3 +115,25 @@ section h2 {
 img {
   width: 100%;
 }
+
+h1,
+h1 strong,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Trebuchet MS" !important;
+}
+
+*,
+b,
+body,
+p,
+span,
+strong {
+  font-family: Verdana !important;
+}
+
+h2 span {
+  font-family: "Trebuchet MS" !important;
+}
